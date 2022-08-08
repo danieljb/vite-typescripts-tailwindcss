@@ -5,10 +5,19 @@ This is a setup to get Vite + TypeScript + TailwindCSS running without any frame
 
 ## Usage #
 
+Use _degit_ to use this repository as a template (replace `your-project-name` with the actual name of your project):
+
+```shell
+npx degit dinghystudio/vite-typescripts-tailwindcss#main [your-project-name]
+cd [your-project-name]
+# don’t forget to edit project name in `package.json`
+
+npm install
+```
+
 To run the development server run:
 
 ```shell
-npm install # if this hasn’t happened already
 npm run dev
 ```
 
